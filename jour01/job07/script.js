@@ -1,10 +1,23 @@
-let mDate = new Date("21 avril 2020");
+let mDate = new Date("04/21/2020");
+
 
 
 jour = mDate.getDate();
+weekday =mDate.getDay() ;
 mois = mDate.getMonth();
 annee = mDate.getFullYear();
 
+
+
+let jourSemaine = [
+  "dimanche",
+  "lundi",
+  "mardi",
+  "mercredi",
+  "jeudi",
+  "vendredi",
+  "samedi",
+];
 
 
 let month = [
@@ -36,16 +49,16 @@ function jourtravaille(mDate) {
     (jour == 11 && mois == 10 && annee == 2020) ||
     (jour == 25 && mois == 11 && annee == 2020)
   ) {
-    console.log(`Le ${jour} ${month[mois]} ${annee} est un jour férié`);
+    console.log(`Le ${jourSemaine[weekday]} ${jour} ${month[mois]} ${annee} est un jour férié`);
   } 
   
-  else if (mDate.getDay() == 6 || mDate.getDay() == 0) {
+  else if (weekday == 6 || weekday == 0) {
     
-  console.log(`Non, ${jour} ${month[mois]} ${annee} est un Week-end`);
+  console.log(`Non, ${jourSemaine[weekday]} ${jour} ${month[mois]} ${annee} est un Week-end`);
   } 
   
   else {
-    console.log(`Oui, ${jour} ${month[mois]} ${annee} est un jour travaillé`);
+    console.log(`Oui, ${jourSemaine[weekday]} ${jour} ${month[mois]} ${annee} est un jour travaillé`);
   }
 }
 
