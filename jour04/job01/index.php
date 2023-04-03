@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script src="script.js"></script>
+   
 </head>
 <body>
+
+<button id="button"></button>
     
 </body>
 </html>
 
+ <script src="script.js"></script>

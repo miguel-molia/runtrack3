@@ -1,20 +1,28 @@
+ // on vise notre bouton 
+ const bouton = document.querySelector("#button");
+ 
+ //on définit notre variable article via un élément qui a pour id citation
+ const article = document.querySelector("#citation");
+
+
 function citation() {
-        // on vise notre bouton 
-        let bouton = document.querySelector("#button");
+       
+       
+//On va mettre notre button "sur écoute" dans le cas où on clique dessus 
+bouton.addEventListener('click', () => {
         
-        //On va mettre notre button "sur écoute" dans le cas où on clique dessus 
-        bouton.addEventListener('click', function() {
-        //on définit notre variable article via un élément qui a pour id citation
-            let article = document.querySelector("#citation");
-            //on affiche dans la console la citation sans les balises affichées grace a innerText
-            console.log(article.innerText)
+            
+//on affiche dans la console la citation sans les balises affichées grace a innerText
+console.log(article.textContent);
             
 
-            // console.log('on a cliqué sur le bouton');
-        })
-    
-    }
-    citation();
+            
+}
+)
+}
+
+//appel de la fonction pour la faire marcher
+citation();
     
     
 
