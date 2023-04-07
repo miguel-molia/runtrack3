@@ -1,0 +1,27 @@
+/* main{
+
+    background-color: #ccccb3;
+} */
+
+body{
+
+    background-color: #ccccb3 !important;
+}
+
+h1{
+
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+.card1 > div {
+margin: 5px;
+}
+
+#grey{
+    background-color: #e0ebeb;
+}
+

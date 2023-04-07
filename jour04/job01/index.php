@@ -10,8 +10,7 @@
 </head>
 <body>
 
-<button id="button"></button>
-    
+<button id="button">envoyer</button>
 </body>
 </html>
 
