@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../dist/output.css" rel="stylesheet">
-    <title>Document</title>
+   <title>Document</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="text-center text-red-600">
 
             <a href="index.php">Accueil</a>
             <a href="index.php">Inscription</a>
@@ -25,7 +26,7 @@
 
     <section>
 
-        <form>
+        <form method="post">
             <label for="madame">Madame</label>
             <input type="radio" name="radio">
 

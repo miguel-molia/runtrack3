@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <title>Document</title>
+   <script src="https://cdn.tailwindcss.com"></script>
     
 </head>
 
-<body>
-
+<body class="bg-yellow-200">
     <header>
-
-        <nav>
+        <nav class="text-center text-red-600">
 
             <a href="index.php">Accueil</a>
             <a href="index.php">Inscription</a>
@@ -52,6 +51,12 @@
             <label for="c_password">Confirmer Mot de Passe</label>
             <input type="password" name="c_password">
 
+           
+           
+           
+           
+           
+           
             <label for="informatique">Informatique</label>
             <input type="checkbox" name="informatique">
 
@@ -83,7 +88,7 @@
 
     <footer>
 
-        <nav>
+        <nav class="text-center text-sky-400">
 
             <a href="index.php">Accueil</a>
             <a href="index.php">Inscription</a>
