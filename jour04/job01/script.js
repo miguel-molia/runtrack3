@@ -10,8 +10,7 @@ bouton.addEventListener('click', () => {
    
    //le deuxieme then nous recupere toutes les données relatives a notre mpromesse fetch
     .then(data => {
-        
-       
+         
      //je crée une variable qui crée un element p vide  
         let p = document.createElement('p');
         
